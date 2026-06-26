@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Naga's World - A Cat Blog</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Primero: solo el header, sin CSS -->
+
     <header>
         <nav>
             <span class="logo">Naga</span>
@@ -17,14 +18,96 @@
         </nav>
     </header>
 
-    <!-- Después: el hero -->
-     <main>
+    <main>
+
         <section class="hero">
-            <img src="images/hero.jpg.jpeg" alt="Naga is in the balcony on the chair.">
+            <img src="images/hero.jpeg" alt="Naga on the balcony">
             <div class="hero-content">
+                <span class="hero-eyebrow">Est. 2019</span>
                 <h1><em>Naga's</em> dark life</h1>
+                <p>A blog under the strict control of her whiskers.</p>
             </div>
         </section>
-     </main>
+
+        <section class="about" id="about">
+            <img src="images/about.jpeg" alt="Naga looking suspicious but adorable">
+            <div class="about-text">
+                <span class="section-label">The star of this blog.</span>
+                <h2>Queen Naga</h2>
+                <p>Dark, fluffy, lethally tender and mysterious. Queen of the universe and supreme boss of the household.</p>
+                <p>Her staff: two humans strictly trained to serve her needs.</p>
+                <p>Everything here happens under the strict control of her whiskers. Complaints go to the wall.</p>
+
+                <div class="stats">
+                    <div class="stat">
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">Years ruling</span>
+                    </div>
+
+                    <div class="stat">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Regrets</span>
+                    </div>
+
+                    <div class="stat">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Naps taken</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog-section" id="blog">
+            <div class="section-header">
+                <h2>Latest Posts</h2>
+                <a href="#">See all posts</a>
+            </div>
+
+            <div class="cards-grid">
+
+                <article class="card">
+                    <img src="images/post-1.jpeg" alt="Naga smelling a piece of chicken">
+                    <div class="card-body">
+                        <span class="card-tag">Lifestyle</span>
+                        <h3>Naga and the Chicken Obsession: A Love Story in One Bite</h3>
+                        <p>There are cats who like treats… and then there is Naga, who treats chicken like a life mission. In this little story, we follow her dramatic, adorable, and very serious relationship with her favorite food.</p>
+                        <div class="card-meta">
+                            <span class="card-date">June 2025</span>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="images/post-2.jpeg" alt="Naga inside a cardboard box">
+                    <div class="card-body">
+                        <span class="card-tag">Philosophy</span>
+                        <h3>Naga vs. The Box: A Structural Engineering Problem</h3>
+                        <p>Naga has found the perfect box… or at least she believes she has. The only problem? The box may not be emotionally or physically prepared to contain her royal belly.</p>
+                        <div class="card-meta">
+                            <span class="card-date">May 2025</span>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="images/post-3.jpeg" alt="Naga lying on the floor with crunchy fall leaves">
+                    <div class="card-body">
+                        <span class="card-tag">Opinion</span>
+                        <h3>What Happens Every Fall: Naga and the Crunchy Leaves Season</h3>
+                        <p>Every fall, Naga discovers her favorite seasonal treasure: crunchy leaves. She does not just play with them — she rolls, listens, attacks, celebrates, and becomes the queen of autumn.</p>
+                        <div class="card-meta">
+                            <span class="card-date">April 2025</span>
+                            <a href="#">Read more</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
 </body>
 </html>
